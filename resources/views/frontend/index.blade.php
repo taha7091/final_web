@@ -30,6 +30,7 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
         </a>
+        <p>{{ $data->cat_info->title ?? 'Uncategorized' }}</p>
     </section>
 @endif
 
